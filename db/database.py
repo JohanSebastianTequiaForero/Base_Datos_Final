@@ -6,4 +6,6 @@ MARIADB_URL = 'mysql+pymysql://root:admin@127.0.0.1:3315/vibesphere'
 #Crear el objeto conexion de la base de datos
 engine = create_engine(MARIADB_URL)
 #Plantilla base para los modelos
+# Base nos va permitir crear la CRUD
 Base = declarative_base()
+
